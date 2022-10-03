@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export const Greet = ()=> {
+const Greet = ()=> {
     return(
         <>
         <h1>Hello Jeeshan</h1>
@@ -10,4 +10,4 @@ export const Greet = ()=> {
     );
 }
 
-// export default Greet;
+export default Greet;
