@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
+import ParentComponent from './components/ParentComponent';
+// import Counter from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
 // import Greet from './components/Greet'
 // import { Message } from './components/Message';
 // import {Welcome} from './components/Welcome'
@@ -9,7 +10,8 @@ import FunctionClick from './components/FunctionClick';
 function App() {
   return (
     <div className="App">
-      <FunctionClick></FunctionClick>
+      <ParentComponent></ParentComponent>
+      {/* <FunctionClick></FunctionClick> */}
       {/* <Counter></Counter> */}
       {/* <Greet name="kisan"></Greet>
       <Welcome name="Seeta" heroName="Captain America"></Welcome>
